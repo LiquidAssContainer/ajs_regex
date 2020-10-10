@@ -1,4 +1,4 @@
-import { Validator, validatePhoneNumber } from '../app';
+import { Validator, formatPhoneNumber } from '../app';
 
 const validator = new Validator();
 
@@ -29,6 +29,6 @@ test.each([
   ['+86 000 000 0000', '+860000000000'],
   ['8 906 1242888', '+79061242888'],
 ])('%s', (phoneNumber, expected) => {
-  const result = validatePhoneNumber(phoneNumber);
+  const result = formatPhoneNumber(phoneNumber);
   expect(result).toBe(expected);
 });

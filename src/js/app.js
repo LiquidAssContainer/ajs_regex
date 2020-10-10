@@ -5,7 +5,7 @@ export class Validator {
   }
 }
 
-export function validatePhoneNumber(str) {
+export function formatPhoneNumber(str) {
   let digits = str.replace(/[^+\d]/g, '');
   digits = digits.replace(/^8/g, '+7');
   return digits; // можно ещё кучу проверок придумать, но в задании это не требуется и никак не оговорено
