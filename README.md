@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ourvpqruqry7p9mp?svg=true)](https://ci.appveyor.com/project/LiquidAssContainer/ajs-regex)
